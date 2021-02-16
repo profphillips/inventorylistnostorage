@@ -2,7 +2,9 @@
 
 Source link: [https://github.com/profphillips/inventorylistnostorage](https://github.com/profphillips/inventorylistnostorage).
 
-Live page link: [(https://profphillips.github.io/inventorylistnostorage/](https://profphillips.github.io/inventorylistnostorage/).
+Live page link: [https://profphillips.github.io/inventorylistnostorage/](https://profphillips.github.io/inventorylistnostorage/).
+
+<img src="./appscreenshot.jpg">
 
 # Getting Started with Create React App
 
