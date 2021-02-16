@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/inventorylistnostoragee/static/css/main.be1adc86.chunk.css",
+    "main.js": "/inventorylistnostoragee/static/js/main.45372817.chunk.js",
+    "main.js.map": "/inventorylistnostoragee/static/js/main.45372817.chunk.js.map",
+    "runtime-main.js": "/inventorylistnostoragee/static/js/runtime-main.779a6238.js",
+    "runtime-main.js.map": "/inventorylistnostoragee/static/js/runtime-main.779a6238.js.map",
+    "static/js/2.acbb070c.chunk.js": "/inventorylistnostoragee/static/js/2.acbb070c.chunk.js",
+    "static/js/2.acbb070c.chunk.js.map": "/inventorylistnostoragee/static/js/2.acbb070c.chunk.js.map",
+    "static/js/3.81540624.chunk.js": "/inventorylistnostoragee/static/js/3.81540624.chunk.js",
+    "static/js/3.81540624.chunk.js.map": "/inventorylistnostoragee/static/js/3.81540624.chunk.js.map",
+    "index.html": "/inventorylistnostoragee/index.html",
+    "static/css/main.be1adc86.chunk.css.map": "/inventorylistnostoragee/static/css/main.be1adc86.chunk.css.map",
+    "static/js/2.acbb070c.chunk.js.LICENSE.txt": "/inventorylistnostoragee/static/js/2.acbb070c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.779a6238.js",
+    "static/js/2.acbb070c.chunk.js",
+    "static/css/main.be1adc86.chunk.css",
+    "static/js/main.45372817.chunk.js"
+  ]
+}
