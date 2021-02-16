@@ -1,10 +1,8 @@
+# Simple Inventory List by John Phillips on Febuary 16, 2021.
 
-#      Simple Inventory List by John Phillips on Febuary 16, 2021.
+[Source link: https://github.com/profphillips/inventorylistnostorage](https://github.com/profphillips/inventorylistnostorage").
 
-[Source at](https://github.com/profphillips/inventorylistnostorage").
-
-[Live page at](https://profphillips.github.io/inventorylistnostorage/).
-
+[Live page link: (https://profphillips.github.io/inventorylistnostorage/](https://profphillips.github.io/inventorylistnostorage/).
 
 # Getting Started with Create React App
 
