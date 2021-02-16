@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/inventorylistnostorage/static/css/main.be1adc86.chunk.css",
-    "main.js": "/inventorylistnostorage/static/js/main.2f89ac5b.chunk.js",
-    "main.js.map": "/inventorylistnostorage/static/js/main.2f89ac5b.chunk.js.map",
+    "main.js": "/inventorylistnostorage/static/js/main.5054c799.chunk.js",
+    "main.js.map": "/inventorylistnostorage/static/js/main.5054c799.chunk.js.map",
     "runtime-main.js": "/inventorylistnostorage/static/js/runtime-main.11c308a2.js",
     "runtime-main.js.map": "/inventorylistnostorage/static/js/runtime-main.11c308a2.js.map",
     "static/js/2.acbb070c.chunk.js": "/inventorylistnostorage/static/js/2.acbb070c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.11c308a2.js",
     "static/js/2.acbb070c.chunk.js",
     "static/css/main.be1adc86.chunk.css",
-    "static/js/main.2f89ac5b.chunk.js"
+    "static/js/main.5054c799.chunk.js"
   ]
 }
