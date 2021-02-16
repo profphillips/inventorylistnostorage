@@ -67,7 +67,7 @@ export default function InventoryListNoStorage() {
 // ***** End Main function ***************************************************
 // export default ItemList;
 
-// Displays a single row of data with delete and edit buttons
+// displays a single row of data with delete and edit buttons
 function ListRow({ oneRow, remove, update }) {
   const [isEditing, toggle] = useToggle(false);
   return (
@@ -182,7 +182,7 @@ function Footer() {
       <a href="https://github.com/profphillips/inventorylistnostorage">
         https://github.com/profphillips/inventorylistnostorage
       </a>
-      . Live page at
+      . Live page at{" "}
       <a href="https://profphillips.github.io/inventorylistnostorage/">
         https://profphillips.github.io/inventorylistnostorage/
       </a>
@@ -190,3 +190,5 @@ function Footer() {
     </p>
   );
 }
+
+// ***** End Of File *********************************************************
