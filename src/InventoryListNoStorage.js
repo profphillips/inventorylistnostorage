@@ -48,7 +48,7 @@ export default function InventoryListNoStorage() {
         <InputForm addNewRow={addNewRow} className="InputForm" />
         <div className="ListContainer">
           <ul>
-            {rowDataArray.map(oneRow => (
+            {rowDataArray.map((oneRow) => (
               <li key={oneRow.id}>
                 <ListRow
                   oneRow={oneRow}
@@ -176,11 +176,17 @@ function useInputState(initialVal) {
 }
 
 function Footer() {
-  return(
+  return (
     <p className="Footer">
-    Simple Inventory List by John Phillips on Febuary 16, 2021.
-    Source at profphillips.github.com/InventoryListNoStorage/.
-    Live page at profphillips.github.io/InventoryListNoStorage/
-  </p>
-  )
+      Simple Inventory List by John Phillips on Febuary 16, 2021. Source at{" "}
+      <a href="profphillips.github.com/InventoryListNoStorage/">
+        profphillips.github.com/InventoryListNoStorage/.
+      </a>
+      Live page at{" "}
+      <a href="profphillips.github.io/InventoryListNoStorage/">
+        profphillips.github.io/InventoryListNoStorage/
+      </a>
+      .
+    </p>
+  );
 }
