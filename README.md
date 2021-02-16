@@ -1,3 +1,11 @@
+
+#      Simple Inventory List by John Phillips on Febuary 16, 2021.
+
+[Source at](https://github.com/profphillips/inventorylistnostorage").
+
+[Live page at](https://profphillips.github.io/inventorylistnostorage/).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
