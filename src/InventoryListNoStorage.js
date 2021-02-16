@@ -179,12 +179,12 @@ function Footer() {
   return (
     <p className="Footer">
       Simple Inventory List by John Phillips on Febuary 16, 2021. Source at{" "}
-      <a href="profphillips.github.com/InventoryListNoStorage/">
-        profphillips.github.com/InventoryListNoStorage/.
+      <a href="https://github.com/profphillips/inventorylistnostorage">
+        https://github.com/profphillips/inventorylistnostorage
       </a>
-      Live page at{" "}
-      <a href="profphillips.github.io/InventoryListNoStorage/">
-        profphillips.github.io/InventoryListNoStorage/
+      . Live page at
+      <a href="https://profphillips.github.io/inventorylistnostorage/">
+        https://profphillips.github.io/inventorylistnostorage/
       </a>
       .
     </p>
