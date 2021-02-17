@@ -99,6 +99,12 @@ function ListRow({ oneRow, remove, update }) {
 function InputForm({ addNewRow }) {
   const [name, handleNameChange, resetNameField] = useInputState("");
   const [qty, handleQtyChange, resetQtyField] = useInputState("");
+
+  // next 2 lines enable the focus to return to the first textbox
+  // after the 'add new item' button is clicked
+  const textInput = React.createRef();
+  const focus = () => textInput.current.focus();
+
   return (
     <form
       className="InputForm"
@@ -107,6 +113,7 @@ function InputForm({ addNewRow }) {
         addNewRow(name, qty);
         resetNameField();
         resetQtyField();
+        focus(); // returns focus to first textbox after submit
       }}
     >
       <input
@@ -115,7 +122,8 @@ function InputForm({ addNewRow }) {
         placeholder="Type new item name"
         onChange={handleNameChange}
         label="Add New Item"
-        autoFocus={true}
+        autoFocus
+        ref={textInput} // returns focus to first textbox after submit
       />
       <input
         type="text"

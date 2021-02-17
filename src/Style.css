@@ -3,7 +3,7 @@
 .Wrapper {
   margin: auto;
   margin-top: 10px;
-  max-width: 800px;
+  max-width: 700px;
   padding: 15px;
   padding-bottom: 200px;
   background: #fdf8f5;
@@ -11,7 +11,8 @@
 }
 
 .Wrapper h1 {
-  color: #265;
+  /* color: #265; */
+  color: #209;
   margin-top: 0px;
   text-align: center;
 }
@@ -51,7 +52,7 @@
 .ListContainer li {
   display: grid; /* puts everything in a nice row */
   margin-top: 5px;
-  padding: 7px 0px 2px 5px;
+  padding: 7px 0px 2px 0px;
   border-bottom-style: groove;
   /* border-style: dotted; */
 }
