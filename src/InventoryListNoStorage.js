@@ -1,7 +1,7 @@
 // This React app maintains a simple inventory list. There is no storage
 // at this point. The design goal was to put all of the functions in
 // a single file to help study how they work.
-// by John Phillips on 2021-02-16
+// by John Phillips on 2021-02-16 revised 2021-02-17
 
 import React, { useState } from "react";
 import { v4 as uuid } from "uuid";
@@ -13,16 +13,14 @@ const defaultList = [
 ];
 
 // ***** Main function *******************************************************
-// or use: const InventoryList = () => { and move export default to bottom
+// or use: const InventoryListNoStorage = () => { and move export default to bottom
 export default function InventoryListNoStorage() {
   const [rowDataArray, setRowDataArray] = useState(defaultList);
 
-  // const addNewRow = ( item, qty ) => {
   function addNewRow(item, qty) {
     setRowDataArray([...rowDataArray, { name: item, qty: qty, id: uuid() }]);
   }
 
-  // const updateRow = (oneRow, qty) => {
   function updateRow(oneRow, qty) {
     // just update qty and leave name and id as is
     const newValue = { name: oneRow.name, qty: qty, id: oneRow.id };
@@ -32,11 +30,9 @@ export default function InventoryListNoStorage() {
       }
       return row;
     });
-    // ? no idea why the following line works like this
-    setRowDataArray((prevTodos) => [...updatedItems]);
+    setRowDataArray([...updatedItems]);
   }
 
-  // const removeRow = (id) => {
   function removeRow(id) {
     setRowDataArray(rowDataArray.filter((row) => row.id !== id));
   }
@@ -65,7 +61,7 @@ export default function InventoryListNoStorage() {
   );
 }
 // ***** End Main function ***************************************************
-// export default ItemList;
+// export default InventoryListNoStorage;
 
 // displays a single row of data with delete and edit buttons
 function ListRow({ oneRow, remove, update }) {
