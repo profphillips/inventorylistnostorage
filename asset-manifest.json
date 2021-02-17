@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/inventorylistnostorage/static/css/main.be1adc86.chunk.css",
-    "main.js": "/inventorylistnostorage/static/js/main.254852a1.chunk.js",
-    "main.js.map": "/inventorylistnostorage/static/js/main.254852a1.chunk.js.map",
+    "main.css": "/inventorylistnostorage/static/css/main.06ef0017.chunk.css",
+    "main.js": "/inventorylistnostorage/static/js/main.98b21089.chunk.js",
+    "main.js.map": "/inventorylistnostorage/static/js/main.98b21089.chunk.js.map",
     "runtime-main.js": "/inventorylistnostorage/static/js/runtime-main.0beda180.js",
     "runtime-main.js.map": "/inventorylistnostorage/static/js/runtime-main.0beda180.js.map",
     "static/js/2.acbb070c.chunk.js": "/inventorylistnostorage/static/js/2.acbb070c.chunk.js",
     "static/js/2.acbb070c.chunk.js.map": "/inventorylistnostorage/static/js/2.acbb070c.chunk.js.map",
     "index.html": "/inventorylistnostorage/index.html",
-    "static/css/main.be1adc86.chunk.css.map": "/inventorylistnostorage/static/css/main.be1adc86.chunk.css.map",
+    "static/css/main.06ef0017.chunk.css.map": "/inventorylistnostorage/static/css/main.06ef0017.chunk.css.map",
     "static/js/2.acbb070c.chunk.js.LICENSE.txt": "/inventorylistnostorage/static/js/2.acbb070c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0beda180.js",
     "static/js/2.acbb070c.chunk.js",
-    "static/css/main.be1adc86.chunk.css",
-    "static/js/main.254852a1.chunk.js"
+    "static/css/main.06ef0017.chunk.css",
+    "static/js/main.98b21089.chunk.js"
   ]
 }
