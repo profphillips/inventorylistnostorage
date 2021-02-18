@@ -18,23 +18,31 @@ export default function InventoryListNoStorage() {
   const [rowDataArray, setRowDataArray] = useState(defaultList);
 
   function addNewRow(item, qty) {
-    setRowDataArray([...rowDataArray, { name: item, qty: qty, id: uuid() }]);
+    // make a new array out of all the existing elements plus a new one
+    const updatedItems = [
+      ...rowDataArray,
+      { name: item, qty: qty, id: uuid() },
+    ];
+    setRowDataArray(updatedItems);
   }
 
   function updateRow(oneRow, qty) {
     // just update qty and leave name and id as is
-    const newValue = { name: oneRow.name, qty: qty, id: oneRow.id };
+    const updatedRow = { name: oneRow.name, qty: qty, id: oneRow.id };
+    // check each row for the matching id and if found return the updated row
     const updatedItems = rowDataArray.map((row) => {
       if (row.id === oneRow.id) {
-        return { ...newValue };
+        return updatedRow;
       }
       return row;
     });
-    setRowDataArray([...updatedItems]);
+    setRowDataArray(updatedItems);
   }
 
   function removeRow(id) {
-    setRowDataArray(rowDataArray.filter((row) => row.id !== id));
+    // filter out any row where the ids don't match
+    const updatedItems = rowDataArray.filter((row) => row.id !== id);
+    setRowDataArray(updatedItems);
   }
 
   return (
